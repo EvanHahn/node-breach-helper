@@ -1,6 +1,6 @@
 var express = require('express');
-var breachHelper = require('..');
 
+var breachHelper = require('../..');
 // Note: in your apps, the above line will be:
 // var breachHelper = require('breach-helper');
 
