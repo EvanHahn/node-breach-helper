@@ -16,5 +16,13 @@
   "devDependencies": {
     "expect.js": "0.3.x",
     "mocha": "1.20.x"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EvanHahn/node-breach-helper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EvanHahn/node-breach-helper/issues"
+  },
+  "homepage": "https://github.com/EvanHahn/node-breach-helper"
 }
