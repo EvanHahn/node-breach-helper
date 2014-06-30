@@ -2,3 +2,33 @@ BREACH helper for Node
 ======================
 
 One way to protect yourself against the [BREACH attack](http://breachattack.com/) is to add random-length comments to your HTML. This little module helps with that!
+
+Usage with Express
+------------------
+
+After installing with `npm install breach-helper`, add this to your app code:
+
+```javascript
+app.locals.breachHelper = require('breach-helper');
+```
+
+Now, the function `breachHelper` will be available to all your views.
+
+To use it with Jade, put this somewhere in your HTML:
+
+```jade
+!= breachHelper()
+```
+
+To use it with EJS, put this somewhere in your HTML:
+
+```ejs
+<%- breachHelper() %>
+```
+
+Usage elsewhere
+---------------
+
+This module just exports one function. That function returns a string that's a variable-length HTML comment. If you want to use this in another context, you can use that function!
+
+Enjoy.
