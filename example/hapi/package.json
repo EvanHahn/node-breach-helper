@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "hapi": "6.0.x",
+    "jade": "1.3.x"
+  }
+}
