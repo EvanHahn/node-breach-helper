@@ -63,4 +63,10 @@ Usage elsewhere
 
 This module just exports one function. That function returns a string that's a variable-length HTML comment. If you want to use this in another context, you can use that function!
 
+```javascript
+var breachHelper = require('breach-helper');
+breachHelper(); // "<!--ABCD420...-->"
+breachHelper(); // "<!--69XYZZY...-->"
+```
+
 Enjoy.
