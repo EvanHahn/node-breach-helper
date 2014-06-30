@@ -26,6 +26,38 @@ To use it with EJS, put this somewhere in your HTML:
 <%- breachHelper() %>
 ```
 
+Usage with Hapi
+---------------
+
+After installing with `npm install breach-helper`, add the `breachHelper` property when you render things:
+
+```javascript
+var breachHelper = require('breach-helper');
+
+// ...
+
+server.route({
+  method: 'GET', path: '/',
+  handler: function(req, reply) {
+    reply.view('index', {
+      breachHelper: breachHelper
+    });
+  }
+});
+```
+
+To use it with Jade, put this somewhere in your HTML:
+
+```jade
+!= breachHelper()
+```
+
+To use it with EJS, put this somewhere in your HTML:
+
+```ejs
+<%- breachHelper() %>
+```
+
 Usage elsewhere
 ---------------
 
