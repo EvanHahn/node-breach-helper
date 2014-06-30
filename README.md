@@ -2,6 +2,7 @@ BREACH helper for Node
 ======================
 
 [![npm version](https://badge.fury.io/js/breach-helper.svg)](http://badge.fury.io/js/breach-helper)
+[![build status](https://travis-ci.org/EvanHahn/node-breach-helper.svg?branch=master)](https://travis-ci.org/EvanHahn/node-breach-helper)
 
 One way to protect yourself against the [BREACH attack](http://breachattack.com/) is to add random-length comments to your HTML. This little module helps with that!
 
