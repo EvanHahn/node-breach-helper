@@ -1,5 +1,5 @@
 {
-  "name": "node-breach-helper",
+  "name": "breach-helper",
   "description": "Random length HTML comments to mitigate BREACH attacks",
   "version": "0.1.0",
   "author": "Evan Hahn <me@evanhahn.com> (http://evanhahn.com)",
