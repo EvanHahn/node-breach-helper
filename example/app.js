@@ -9,10 +9,17 @@ var app = express();
 app.locals.breachHelper = breachHelper;
 
 app.set('port', process.env.PORT || 1337);
-app.set('view engine', 'jade');
 
-app.get('/', function(req, res) {
-  res.render('myview');
+app.get('/jade', function(req, res) {
+  res.render('jade_view.jade');
+});
+
+app.get('/ejs', function(req, res) {
+  res.render('ejs_view.ejs');
+});
+
+app.use(function(req, res) {
+  res.redirect('/ejs');
 });
 
 app.listen(app.get('port'), function() {
