@@ -1,0 +1,16 @@
+{
+  "name": "node-breach-helper",
+  "description": "Random length HTML comments to mitigate BREACH attacks",
+  "version": "0.1.0",
+  "author": "Evan Hahn <me@evanhahn.com> (http://evanhahn.com)",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "breach",
+    "attack",
+    "security"
+  ],
+  "license": "Unlicense"
+}
