@@ -4,7 +4,7 @@
     "start": "node app"
   },
   "dependencies": {
-    "express": "4.4.x",
+    "express": "4.17.x",
     "ejs": "1.0.x",
     "jade": "1.3.x"
   }
