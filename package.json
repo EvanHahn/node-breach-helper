@@ -14,7 +14,7 @@
   ],
   "license": "Unlicense",
   "devDependencies": {
-    "mocha": "^8.2.0"
+    "mocha": "^9.0.0"
   },
   "repository": {
     "type": "git",
