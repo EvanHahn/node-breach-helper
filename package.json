@@ -10,7 +10,7 @@
     "lint:eslint": "eslint .",
     "lint:prettier": "prettier --check .",
     "format": "prettier --write .",
-    "test": "mocha"
+    "test": "node test"
   },
   "keywords": [
     "breach",
@@ -20,7 +20,6 @@
   "license": "Unlicense",
   "devDependencies": {
     "eslint": "^8.7.0",
-    "mocha": "^9.1.3",
     "prettier": "^2.5.1"
   },
   "repository": {
