@@ -1,22 +1,21 @@
-var assert = require("assert");
-var helper = require(".");
+const assert = require("node:assert");
+const helper = require(".");
 
-var REPEATS = 1000;
-var i;
+const REPEATS = 1000;
 
 // Returns a comment with HTML inside
 {
-  for (i = 0; i < REPEATS; i++) {
+  for (let i = 0; i < REPEATS; i++) {
     assert(/^<!--\w+-->$/.test(helper()));
   }
 }
 
 // Returns variable-length data
 {
-  var collisions = 0;
-  var lastLength;
-  for (i = 0; i < REPEATS; i++) {
-    var length = helper().length;
+  let collisions = 0;
+  let lastLength;
+  for (let i = 0; i < REPEATS; i++) {
+    const length = helper().length;
     if (length === lastLength) collisions += 1;
     lastLength = length;
   }
